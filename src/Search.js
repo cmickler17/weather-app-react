@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import axios from "axios";
-import { scryRenderedComponentsWithType } from "react-dom/cjs/react-dom-test-utils.production.min";
 
 export default function Search() {
   let [city, setCity] = useState(null);
@@ -52,6 +51,7 @@ export default function Search() {
           <img src={icon} alt={description} />
         </li>
       </ul>
+      <footer>This project was coded by <a href="https://www.linkedin.com/in/chrissy-mickler-23104427/">Chrissy Mickler</a> and is <a href="https://github.com/cmickler17/weather-app-react">open sourced on GitHub</a>.</footer>
     </div>
   );
 }
