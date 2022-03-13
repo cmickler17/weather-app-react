@@ -16,11 +16,19 @@ export default function Weather() {
               <li>Saturday 11:00</li>
               <li>Partly Cloudy</li>  
             </ul>
-            <div className="row">
+            <div className="row mt-3">
                 <div className="col-6">
-                        <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="Partly Cloudy" className="float-left"/>
+                        <div className="d-flex">
+                            <img 
+                            src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                            alt="Partly Cloudy"
+                            className="float-left"
+                            />
+                           <div className="float-left">
                             <span className="temperature">50</span>
                             <span className="unit">°F</span>
+                            </div>
+                        </div>
                 </div>
                 <div className="col-6">
                     <ul>
